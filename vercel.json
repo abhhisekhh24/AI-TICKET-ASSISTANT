@@ -3,7 +3,7 @@
     {
       "src": "ai-ticket-frontend/package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "ai-ticket-frontend/dist" }
+      "config": { "distDir": "dist" }
     }
   ],
   "routes": [
