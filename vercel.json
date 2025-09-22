@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "ai-ticket-frontend/package.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "ai-ticket-frontend/dist" }
+    }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
